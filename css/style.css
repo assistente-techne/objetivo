@@ -1,0 +1,209 @@
+@font-face {
+    src: url(./Roboto/Roboto-Regular.ttf);
+    font-family: 'Roboto-Regular';    
+    font-weight: normal;
+} 
+
+
+body {
+    font-family: 'Roboto-Regular'; 
+    margin: 0px 00px 00px 0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+}
+
+.logo-home{
+    width: 100%;
+    max-width: 120px;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.parte {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+.img {
+    width: 100%;
+}
+
+.div-logo {
+    position: relative;
+    /* background-color: rgba(156, 163, 168, 0.466); */
+    top: 40%;
+    text-align: center;
+    width: 500px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+/*             background-color: #00264e;
+*/            display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 400px;
+    border-radius: 0px;
+}
+
+.container-home {
+    /* background-image: url(../img/fundo-home.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-home {
+    position: relative;
+    top: -200px;
+    text-align: center;
+    width: 400px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+
+body {
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.text{
+    color: #fff;
+    font-weight: 600;
+    margin-top: -50px;
+    font-size: 27px;
+}
+
+.input-login{
+    border: none;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    font-size: 25px;
+    background-color: transparent;
+    color: #555353;
+}
+
+.div-input{
+  padding: 20px;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0; 
+}
+
+.btn-login{
+    background-color: #035187;
+    border: 1px solid #035187; 
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: rgb(255, 255, 255);   
+    color: #035187;
+    border: 1px solid #035187; 
+}
+
+.txt-chathome{
+    font-size: 40px;
+    font-weight: 800;
+    color: #035187;
+    padding: 10px;    
+}
+
+.link-sistema{
+    color: #035187;
+    font-size: 24px;
+    top: -30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.container-sistema {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.menu-lateral{
+    background-color: #035187;
+    height: 100vh;
+    width: 150px;
+    color: #fff; 
+}
+
+.logo-sistema{
+    width: 100%;
+    max-width: 300px;
+}
+
+.div-logo-sistema{
+  
+}
+
+.logo-sistema-fundo{
+    position: relative;
+    left: 45%;
+    width: 400px;
+    top: -600px;
+}
+
+.item-menu{
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item-exit{
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    position:absolute;
+	bottom:0;
+}
+
+.item-menu .item-exit:hover{
+    color:#444242;
+    cursor: pointer;
+}
+
+.txt-saudacao{
+    font-size: 18px;
+}
+
